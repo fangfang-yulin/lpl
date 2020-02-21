@@ -1,17 +1,28 @@
+<!--
+ * @Date: 2020-02-21 16:23:47
+ * @LastEditTime: 2020-02-21 19:57:20
+ * @Author: 李芳芳
+ * @Github: https://github.com/J-Fan-Fan/
+ -->
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div>
+  <link-view></link-view>
+    <Tabbar></Tabbar>
+</div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Tabbar from '@/components/Tabbar/index.vue'
+// import Footer from './components/Footer.vue'
+// import Bars from './components/Bars.vue'
+// import Toast from './components/Toast.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Tabbar
   }
 }
 </script>
